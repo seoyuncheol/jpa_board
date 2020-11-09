@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://110.10.147.134:3306/educon_db?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+    username: educon_user
+    password: educon!@#
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+    show-sql: true
